@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Multiply(6,8));
+            Console.WriteLine("Enter a whole number.");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter another a whole number.");
+            int y = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(Multiply(x,y));
         }
 
         static int Multiply(int num1, int num2)
